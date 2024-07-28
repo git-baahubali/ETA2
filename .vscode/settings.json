@@ -1,0 +1,29 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "comment.block.documentation"
+                ],
+                "settings": {
+                    "foreground": "#658cd4",
+                    "fontStyle": "italic underline"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.function.js.jsx",
+                    "meta.definition.function.js.jsx",
+                    "meta.function.js.jsx",
+                    "source.js.jsx"
+                ],
+                "settings": {
+                    "foreground": "#FF69B4",
+                    "fontStyle": ""
+                }
+            }
+        ],
+        "comments": ""
+    }
+}
